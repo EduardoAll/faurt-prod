@@ -1,0 +1,19 @@
+.phrase {
+  display: flex;
+  width: 100vw;
+  height: 25vh;
+  background-color: rgb(34, 40, 49);
+  color: rgb(0, 173, 181);
+  align-items: center;
+  justify-content: center;
+  border-top: 7px solid black;
+  border-bottom: 7px solid black;
+  padding: 1em;
+}
+
+.phrase > h4 {
+  display: flex;
+  font-size: 17px;
+  justify-content: center;
+  text-align: center;
+}

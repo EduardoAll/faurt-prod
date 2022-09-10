@@ -1,0 +1,60 @@
+.player {
+  display: flex;
+  width: 100vw;
+  height: 120vh;
+  margin-top: 20vh;
+  overflow-y: hidden;
+}
+
+.list-container {
+  width: 100vw;
+  height: 115vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+
+}
+
+
+.item {
+  display: flex;
+  height: 9vh;
+  width: 20vw;
+  margin: 10px 5px 5px 20px;
+}
+
+
+
+@media only screen and (max-width: 1240px) {
+
+  .player {
+    height: 260vh;
+    margin-top: 20vh;
+  }
+
+  .list-container {
+    height: 260vh;
+    justify-content: space-around;
+  }
+
+  .item {
+    width: 90vw;
+    height: 40px;
+    margin: 10px 10px 5px 10px;
+
+  }
+
+}
+
+@media screen and (orientation:landscape) and (max-height:480px) {
+  .player {
+    height: 430vh;
+    margin-top: 30vh;
+    overflow-y: hidden;
+  }
+
+  .list-container {
+    height: 430vh;
+    justify-content: space-around;
+  }
+}

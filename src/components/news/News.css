@@ -1,0 +1,80 @@
+.news {
+  width: 100vw;
+  height: 60vh;
+  background-color: rgb(57, 62, 70);
+  border-bottom: 7px solid black;
+}
+
+.news > .title {
+  display: flex;
+  position: absolute;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 40px;
+  color: rgb(0, 173, 181);
+  margin-top: 5vh;
+  background-color: rgb(57, 62, 70);
+}
+
+.news > .list {
+  display: flex;
+  width: 100vw;
+  height: 40vh;
+  flex-direction: column;
+  position: absolute;
+  top: 515vh;
+  left: 3vw;
+}
+
+.news > .list > li {
+  color: rgb(0, 173, 181);
+  font-size: 33px;
+}
+
+.news > .list > li > a {
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 400px) {
+  .news > .list {
+    top: 900vh;
+    padding: 2em;
+  }
+
+  .news > .list > li {
+    font-size: 18px;
+  }
+
+}
+
+@media only screen and (min-width: 401px) and (max-width: 1240px) {
+
+  .news > .list {
+    top: 880vh;
+    padding: 2em;
+  }
+
+  .news > .list > li {
+    font-size: 18px;
+  }
+
+}
+
+@media screen and (orientation:landscape) and (max-height:480px) {
+  .news {
+    height: 80vh;
+  }
+
+  .news > .list {
+    top: 930vh;
+  }
+
+  .news > .list > li {
+    font-size: 16px;
+  }
+
+
+
+}
