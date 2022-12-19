@@ -4,6 +4,7 @@
   height: 120vh;
   margin-top: 20vh;
   overflow-y: hidden;
+  z-index: 5;
 }
 
 .list-container {
@@ -21,7 +22,9 @@
   height: 9vh;
   width: 20vw;
   margin: 10px 5px 5px 20px;
+  z-index: 4;
 }
+
 
 
 
@@ -41,7 +44,7 @@
     width: 90vw;
     height: 40px;
     margin: 10px 10px 5px 10px;
-
+    z-index: 4;
   }
 
 }
